@@ -1,6 +1,4 @@
-import { defineConfig } from "@playwright/test";
-
-export default defineConfig({
+export default {
   testDir: "e2e",
   outputDir: "e2e/test-results",
   reporter: "list",
@@ -17,4 +15,4 @@ export default defineConfig({
       reuseExistingServer: true,
     },
   ],
-});
+};
